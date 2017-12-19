@@ -12,7 +12,6 @@ import io.pnt.edu.bookstore.dto.Book;
 import io.pnt.edu.bookstore.service.BookService;
 
 @Service
-@Primary
 public class HSqlBookServiceImpl implements BookService{
 	@Autowired
 	JdbcTemplate jdbcTemplate;
